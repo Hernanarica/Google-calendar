@@ -1,0 +1,18 @@
+.cell__task {
+   display: flex;
+   flex-direction: column;
+   gap: 0.25rem;
+   padding-inline: 1rem;
+   padding-block: 0.625rem;
+   background-color: var(--blue10);
+   color: var(--white);
+   font: var(--body2-medium);
+   border-radius: 0.25rem;
+   overflow: hidden;
+}
+
+.cell__task-title,
+.cell__task-time {
+   margin: 0;
+   white-space: nowrap;
+}

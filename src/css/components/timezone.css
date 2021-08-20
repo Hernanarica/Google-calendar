@@ -1,0 +1,21 @@
+.timezone {
+   position: sticky;
+   top: 0;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   padding-inline-end: 1rem;
+   background-color: var(--white);
+   font: var(--body3-regular);
+   z-index: 1;
+}
+
+.timezone:before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   inline-size: 0.5rem;
+   block-size: 0.0625rem;
+   background-color: currentColor;
+}

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="./src/css/index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+		<title>Google Calendar</title>
+	</head>
+	<body>
+		<div class="page">
+			<header class="page__header"></header>
+			<div class="page__sidebar"></div>
+			<main class="page__calendar">
+				<div class="current-time"></div>
+				<div class="page__calendar-week">
+					<div class="timezone">GMT-5</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Domingo 6 de Junio del 2021">
+							<time datetime="06-06-2021" class="calendar-day__day">
+								<span>DOM</span>
+								<br>
+								<span>6</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Lunes 7 de Junio del 2021">
+							<time datetime="07-06-2021" class="calendar-day__day">
+								<span>LUN</span>
+								<br>
+								<span>7</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Martes 8 de Junio del 2021">
+							<time datetime="08-06-2021" class="calendar-day__day">
+								<span>MAR</span>
+								<br>
+								<span>8</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Miércoles 9 de Junio del 2021">
+							<time datetime="09-06-2021" class="calendar-day__day">
+								<span>MIE</span>
+								<br>
+								<span>9</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day active">
+						<a href="#" class="calendar-day__link" aria-label="Jueves 10 de Junio del 2021">
+							<time datetime="10-06-2021" class="calendar-day__day">
+								<span>JUE</span>
+								<br>
+								<span>10</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Viernes 11 de Junio del 2021">
+							<time datetime="11-06-2021" class="calendar-day__day">
+								<span>VIE</span>
+								<br>
+								<span>11</span>
+							</time>
+						</a>
+					</div>
+					<div class="calendar-day">
+						<a href="#" class="calendar-day__link" aria-label="Sábado 12 de Junio del 2021">
+							<time datetime="12-06-2021" class="calendar-day__day">
+								<span>SAB</span>
+								<br>
+								<span>12</span>
+							</time>
+						</a>
+					</div>
+					<span class="cell-time"></span>
+					<div class="cell">
+						<div class="cell__task" tabindex="0" aria-label="de 17:00 a 18:00, hacer ejercicio">
+							<p class="cell__task-title">Hacer ejercicio</p>
+							<p class="cell__task-time">
+								<time datetime="17:00">5</time>
+								-
+								<time datetime="18:00">6 pm</time>
+							</p>
+						</div>
+					</div>
+					<div class="cell">
+						<div class="cell__task" tabindex="0" aria-label="de 17:00 a 18:00, hacer ejercicio">
+							<p class="cell__task-title">Hacer ejercicio</p>
+							<p class="cell__task-time">
+								<time datetime="17:00">5</time>
+								-
+								<time datetime="18:00">6 pm</time>
+							</p>
+						</div>
+					</div>
+					<div class="cell">
+						<div class="cell__task" tabindex="0" aria-label="de 17:00 a 18:00, hacer ejercicio">
+							<p class="cell__task-title">Hacer ejercicio</p>
+							<p class="cell__task-time">
+								<time datetime="17:00">5</time>
+								-
+								<time datetime="18:00">6 pm</time>
+							</p>
+						</div>
+					</div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">1 AM</span>
+					<div class="cell active"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">2 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">3 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">4 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">5 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">6 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">7 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">8 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">9 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">10 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">11 AM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">12 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">1 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">2 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">3 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">4 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">5 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">6 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">7 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">8 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">9 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">10 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<span class="cell-time">11 PM</span>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

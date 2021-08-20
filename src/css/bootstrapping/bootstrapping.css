@@ -1,0 +1,13 @@
+@import "./normalize.css";
+@import "./variables.css";
+@import "./icons.css";
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+body {
+   font: var(--body1-regular);
+}

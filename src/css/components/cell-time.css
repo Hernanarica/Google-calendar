@@ -1,0 +1,17 @@
+.cell-time {
+   position: relative;
+   place-self: start end;
+   padding-inline-end: 1rem;
+   transform: translateY(-50%);
+   font: var(--body3-regular);
+}
+
+.cell-time::before {
+   content: '';
+   position: absolute;
+   bottom: 50%;
+   right: 0;
+   inline-size: 0.5rem;
+   block-size: 0.0625rem;
+   background-color: currentColor;
+}

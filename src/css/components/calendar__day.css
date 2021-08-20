@@ -1,0 +1,57 @@
+.calendar-day {
+   position: sticky;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   border-bottom: 1px solid currentColor;
+   background-color: var(--white);
+}
+
+.calendar-day.active .calendar-day__link:hover span:nth-of-type(2),
+.calendar-day.active .calendar-day__link:focus span:nth-of-type(2) {
+   background-color: var(--blue30);
+}
+
+.calendar-day.active span:nth-of-type(1) {
+   color: var(--blue10);
+}
+
+.calendar-day.active span:nth-of-type(2) {
+   background-color: var(--blue10);
+   color: var(--white);
+}
+
+.calendar-day:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   inline-size: 0.0625rem;
+   block-size: 2rem;
+   background-color: currentColor;
+}
+
+.calendar-day__link {
+   text-decoration: none;
+   color: currentColor;
+   outline: none;
+}
+
+.calendar-day__link:hover span:nth-of-type(2),
+.calendar-day__link:focus span:nth-of-type(2) {
+   background-color: var(--gray10);
+}
+
+.calendar-day__link span:nth-of-type(1) {
+   font: var(--body1-regular);
+}
+
+.calendar-day__link span:nth-of-type(2) {
+   display: inline-block;
+   font: var(--subtitle-subtitle1);
+   inline-size: 2.75rem;
+   line-height: 2.75rem;
+   border-radius: 50%;
+}
