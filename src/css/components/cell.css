@@ -9,7 +9,7 @@
    display: block;
    padding: 0.25rem;
    background-color: #c6dafc;
-   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
    font-size: small;
    border-radius: 0.25rem;
 }
