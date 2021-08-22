@@ -9,7 +9,7 @@
 }
 
 .page__header {
-   border: 2px solid indianred;
+   /*border: 2px solid indianred;*/
    grid-area: header;
 }
 
@@ -19,6 +19,6 @@
 }
 
 .page__calendar {
-   border: 2px solid steelblue;
+   /*border: 2px solid steelblue;*/
    grid-area: calendar;
 }

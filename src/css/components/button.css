@@ -1,0 +1,64 @@
+.btn {
+   display: inline-block;
+   padding-inline: 1rem;
+   padding-block: 0.5rem;
+   background-color: transparent;
+   color: currentColor;
+   font: var(--button-button);
+   text-decoration: none;
+   border: 1px solid transparent;
+   border-radius: 0.25rem;
+   outline: none;
+   transition: 350ms;
+   cursor: pointer;
+}
+
+.btn i {
+   font-size: 1.5rem;
+   color: var(--gray50);
+}
+
+.btn i,
+.btn span {
+   vertical-align: middle;
+}
+
+.btn:active {
+   transform: scale(.9);
+}
+
+.btn.primary {
+   background-color: var(--blue10);
+   color: var(--white);
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+   background-color: var(--blue30);
+}
+
+.btn.secondary {
+   border: 1px solid var(--gray20);
+}
+
+.btn:hover,
+.btn:focus,
+.btn.rounded:hover,
+.btn.rounded:focus {
+   background-color: var(--gray10);
+}
+
+.btn.rounded {
+   background-color: var(--white);
+   color: var(--blue10);
+   border-radius: 20px;
+}
+
+.btn.rounded-full {
+   padding: 0.5rem;
+   border-radius: 50%;
+}
+
+.btn.shadow {
+   box-shadow: 1.0719px 30.9815px 92px rgba(0, 0, 0, 0.0274815), 0.412881px 11.9336px 29.3037px rgba(0, 0, 0, 0.0425185), 0.0873403px 2.52442px 7.4963px rgba(0, 0, 0, 0.07);
+}

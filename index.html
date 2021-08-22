@@ -12,7 +12,49 @@
 	</head>
 	<body>
 		<div class="page">
-			<header class="page__header"></header>
+			<header class="page__header">
+				<div class="header__primary">
+					<div class="header__logo">
+						<button class="btn rounded-full" aria-label="Abrir menú">
+							<i class="icon__hamburguer-button" aria-hidden="true"></i>
+						</button>
+						<a href="/" aria-current="page" aria-label="Calendar" tabindex="-1">
+							<img src="./src/assets/imgs/logo.png" alt="Logo de calendar" width="164" height="48">
+						</a>
+					</div>
+					<div class="calendar-status">
+						<button class="btn secondary">Hoy</button>
+						<span class="calendar-status__navigation">
+							<a href="#" class="btn rounded-full" aria-label="Semana anterior">
+								<i class="icon__chevron-left" aria-hidden="true"></i>
+							</a>
+							<a href="#" class="btn rounded-full" aria-label="Siguiente semana">
+								<i class="icon__chevron-right" aria-hidden="true"></i>
+							</a>
+						</span>
+						<time datetime="25-06-2021" class="calendar-status__date">25 de Junio</time>
+					</div>
+				</div>
+				<div class="header__secondary">
+					<select name="" id="" class="select">
+						<option value="" selected>Semana</option>
+						<option value="">Día</option>
+					</select>
+					<a href="#">
+						<img src="./src/assets/imgs/user-1.png" alt="Usuario" width="34" height="34">
+					</a>
+				</div>
+				<!--				<button class="btn">Button</button>-->
+				<!--				<a href="#" class="btn">Button</a>-->
+				<!--				<a href="#" class="btn primary">Button</a>-->
+				<!--				<a href="#" class="btn rounded shadow">-->
+				<!--					<i class="icon__plus"></i>-->
+				<!--					<span>Button</span>-->
+				<!--				</a>-->
+				<!--				<a href="#" class="btn rounded-full shadow">-->
+				<!--					<i class="icon__plus"></i>-->
+				<!--				</a>-->
+			</header>
 			<div class="page__sidebar"></div>
 			<main class="page__calendar">
 				<div class="current-time"></div>

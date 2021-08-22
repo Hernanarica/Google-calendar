@@ -1,0 +1,13 @@
+.select {
+   padding-inline: 0.75rem;
+   padding-inline-end: 2rem;
+   padding-block: 0.5rem;
+   border-radius: 0.25rem;
+   border-color: var(--gray20);
+   font: var(--button-button);
+   /*Con esta propiedad el select pierde su estilo de select*/
+   appearance: none;
+   background-image: url("../../assets/icons/Icon=chevron-down.svg");
+   background-repeat: no-repeat;
+   background-position: right 0.25rem center;
+}

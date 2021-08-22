@@ -1,8 +1,11 @@
 /* Initialisation files */
 @import "./bootstrapping/bootstrapping.css";
 
+/* Sections */
+@import "./sections/page.css";
+@import "./sections/header.css";
+
 /* Components */
-@import "./components/page.css";
 @import "./components/calendar.css";
 @import "./components/cell.css";
 @import "./components/cell__task.css";
@@ -10,3 +13,6 @@
 @import "./components/timezone.css";
 @import "./components/cell-time.css";
 @import "./components/current-time.css";
+@import "./components/button.css";
+@import "./components/select.css";
+@import "./components/calendar-status.css";
