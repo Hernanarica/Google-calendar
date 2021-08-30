@@ -14,7 +14,7 @@
 }
 
 .page__sidebar {
-   border: 2px solid forestgreen;
+   /*border: 2px solid forestgreen;*/
    grid-area: sidebar;
 }
 

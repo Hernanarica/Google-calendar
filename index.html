@@ -44,25 +44,86 @@
 						<img src="./src/assets/imgs/user-1.png" alt="Usuario" width="34" height="34">
 					</a>
 				</div>
-				<!--				<button class="btn">Button</button>-->
-				<!--				<a href="#" class="btn">Button</a>-->
-				<!--				<a href="#" class="btn primary">Button</a>-->
-				<!--				<a href="#" class="btn rounded shadow">-->
-				<!--					<i class="icon__plus"></i>-->
-				<!--					<span>Button</span>-->
-				<!--				</a>-->
-				<!--				<a href="#" class="btn rounded-full shadow">-->
-				<!--					<i class="icon__plus"></i>-->
-				<!--				</a>-->
 			</header>
-			<div class="page__sidebar"></div>
+			<div class="page__sidebar">
+				<button class="btn rounded shadow">
+					<i class="icon__plus" aria-hidden="true"></i>
+					<span>Crear</span>
+				</button>
+				<div class="mini-calendar" aria-label="Calendario de navegación">
+					<div class="mini-calendar__status">
+						<time datetime="2021-06" class="mini-calendar__status-month">Junio 2021</time>
+						<div class="mini-calendar__status-navigation">
+							<a href="#mes-anterior" class="btn rounded-full" aria-label="Mes anterior">
+								<i class="icon__chevron-left" aria-hidden="true"></i>
+							</a>
+							<a href="#mes-siguiente" class="btn rounded-full" aria-label="Mes siguiente">
+								<i class="icon__chevron-right" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="mini-calendar__header">
+						<span class="mini-calendar__week-day">D</span>
+						<span class="mini-calendar__week-day">L</span>
+						<span class="mini-calendar__week-day">M</span>
+						<span class="mini-calendar__week-day">M</span>
+						<span class="mini-calendar__week-day">J</span>
+						<span class="mini-calendar__week-day">V</span>
+						<span class="mini-calendar__week-day">S</span>
+					</div>
+					<div class="mini-calendar__month">
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">30</div>
+						<div class="mini-calendar__month-day">1</div>
+						<div class="mini-calendar__month-day">2</div>
+						<div class="mini-calendar__month-day">3</div>
+						<div class="mini-calendar__month-day">4</div>
+						<div class="mini-calendar__month-day">5</div>
+						<div class="mini-calendar__month-day">6</div>
+						<div class="mini-calendar__month-day">7</div>
+						<div class="mini-calendar__month-day">8</div>
+						<div class="mini-calendar__month-day">9</div>
+						<div class="mini-calendar__month-day">10</div>
+						<div class="mini-calendar__month-day">11</div>
+						<div class="mini-calendar__month-day">12</div>
+						<div class="mini-calendar__month-day">13</div>
+						<div class="mini-calendar__month-day">14</div>
+						<div class="mini-calendar__month-day">15</div>
+						<div class="mini-calendar__month-day">16</div>
+						<div class="mini-calendar__month-day">17</div>
+						<div class="mini-calendar__month-day">18</div>
+						<div class="mini-calendar__month-day">19</div>
+						<div class="mini-calendar__month-day">20</div>
+						<div class="mini-calendar__month-day">21</div>
+						<div class="mini-calendar__month-day">22</div>
+						<div class="mini-calendar__month-day">23</div>
+						<div class="mini-calendar__month-day">24</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--select">25</div>
+						<div class="mini-calendar__month-day">26</div>
+						<div class="mini-calendar__month-day">27</div>
+						<div class="mini-calendar__month-day">28</div>
+						<div class="mini-calendar__month-day">29</div>
+						<div class="mini-calendar__month-day">30</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">1</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">2</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">3</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">4</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">5</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">6</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">7</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">8</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">9</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">10</div>
+						<div class="mini-calendar__month-day mini-calendar__month-day--disabled">11</div>
+					</div>
+				</div>
+			</div>
 			<main class="page__calendar">
 				<div class="current-time"></div>
 				<div class="page__calendar-week">
 					<div class="timezone">GMT-5</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Domingo 6 de Junio del 2021">
-							<time datetime="06-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-06" class="calendar-day__day">
 								<span>DOM</span>
 								<br>
 								<span>6</span>
@@ -71,7 +132,7 @@
 					</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Lunes 7 de Junio del 2021">
-							<time datetime="07-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-07" class="calendar-day__day">
 								<span>LUN</span>
 								<br>
 								<span>7</span>
@@ -80,7 +141,7 @@
 					</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Martes 8 de Junio del 2021">
-							<time datetime="08-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-08" class="calendar-day__day">
 								<span>MAR</span>
 								<br>
 								<span>8</span>
@@ -89,7 +150,7 @@
 					</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Miércoles 9 de Junio del 2021">
-							<time datetime="09-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-09" class="calendar-day__day">
 								<span>MIE</span>
 								<br>
 								<span>9</span>
@@ -98,7 +159,7 @@
 					</div>
 					<div class="calendar-day active">
 						<a href="#" class="calendar-day__link" aria-label="Jueves 10 de Junio del 2021">
-							<time datetime="10-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-10" class="calendar-day__day">
 								<span>JUE</span>
 								<br>
 								<span>10</span>
@@ -107,7 +168,7 @@
 					</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Viernes 11 de Junio del 2021">
-							<time datetime="11-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-11" class="calendar-day__day">
 								<span>VIE</span>
 								<br>
 								<span>11</span>
@@ -116,7 +177,7 @@
 					</div>
 					<div class="calendar-day">
 						<a href="#" class="calendar-day__link" aria-label="Sábado 12 de Junio del 2021">
-							<time datetime="12-06-2021" class="calendar-day__day">
+							<time datetime="2021-06-12" class="calendar-day__day">
 								<span>SAB</span>
 								<br>
 								<span>12</span>

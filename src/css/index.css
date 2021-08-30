@@ -4,6 +4,7 @@
 /* Sections */
 @import "./sections/page.css";
 @import "./sections/header.css";
+@import "./sections/sidebar.css";
 
 /* Components */
 @import "./components/calendar.css";
@@ -16,3 +17,4 @@
 @import "./components/button.css";
 @import "./components/select.css";
 @import "./components/calendar-status.css";
+@import "./components/mini-calendar.css";

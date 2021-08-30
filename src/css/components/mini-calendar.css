@@ -1,0 +1,47 @@
+.mini-calendar {
+	--cellSize: 1.75rem;
+	max-inline-size: 12.25rem;
+	text-align: center;
+}
+
+.mini-calendar__status {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline-start: 0.25rem;
+}
+
+.mini-calendar__status-month {
+	font: var(--body1-medium);
+}
+
+.mini-calendar__header,
+.mini-calendar__month {
+	display: grid;
+	grid-template-columns: repeat(7, var(--cellSize));
+	font: var(--body3-regular);
+}
+
+.mini-calendar__header {
+	grid-template-rows: var(--cellSize);
+	margin-block-end: 0.5rem;
+	line-height: var(--cellSize);
+}
+
+.mini-calendar__month {
+	grid-template-rows: repeat(6, var(--cellSize));
+}
+
+.mini-calendar__month-day {
+	line-height: var(--cellSize);
+}
+
+.mini-calendar__month-day--select {
+	background-color: var(--blue10);
+	color: var(--white);
+	border-radius: 50%;
+}
+
+.mini-calendar__month-day--disabled {
+	color: var(--gray20);
+}
