@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div class="header__secondary">
-					<select name="" id="" class="select">
+					<select name="mode" class="select">
 						<option value="" selected>Semana</option>
 						<option value="">Día</option>
 					</select>
@@ -406,5 +406,60 @@
 				</div>
 			</main>
 		</div>
+		<!--		Nueva etiqueta-->
+		<dialog class="modal">
+			<form action="/" class="create-task">
+				<div class="input input--outstanding">
+					<div class="input__body">
+						<input type="text" name="titulo" placeholder="Añade un titulo" required>
+					</div>
+				</div>
+				<div class="input">
+					<i class="icon__clock"></i>
+					<div class="input__body">
+						<input type="date" name="date" required>
+						<input type="time" name="time-start" required>
+						<input type="time" name="time-end" required>
+					</div>
+				</div>
+				<div class="input">
+					<i class="icon__users"></i>
+					<div class="input__body">
+						<!--					Enlazar input con datalist:  se conectan mediante el atributo list en el input y un id en datalist-->
+						<input type="text" list="guest" name="guest" placeholder="Agregar invitados" required>
+						<datalist id="guest">
+							<option value="Leonidas"></option>
+							<option value="Carlos"></option>
+							<option value="Miguel"></option>
+							<option value="Sandra"></option>
+							<option value="Cristofer"></option>
+						</datalist>
+					</div>
+				</div>
+				<div class="input">
+					<i class="icon__gps"></i>
+					<div class="input__body">
+						<input type="text" name="location" placeholder="Añadir localización">
+					</div>
+				</div>
+				<div class="input">
+					<i class="icon__text"></i>
+					<div class="input__body">
+						<input type="file" multiple>
+					</div>
+				</div>
+				<div class="input">
+					<i class="icon__text"></i>
+					<div class="input__body">
+						<textarea name="descripcion" placeholder="Agregar descripción" rows="2"></textarea>
+					</div>
+				</div>
+			</form>
+			<div class="modal__actions">
+				<button class="btn" id="close-modal">Cancelar</button>
+				<button class="btn primary">Guardar</button>
+			</div>
+		</dialog>
+		<script src="./src/js/app.js" type="module"></script>
 	</body>
 </html>

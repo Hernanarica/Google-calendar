@@ -5,9 +5,11 @@
 *,
 *:before,
 *:after {
-   box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-   font: var(--body1-regular);
+	font: var(--body1-regular);
+	color: var(--gray50);
+	background-color: var(--white);
 }
